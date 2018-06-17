@@ -1,0 +1,22 @@
+<form class="form" action="/todo" method="post">
+  <div class="form-group">
+    <label for="title">Tennivaló neve</label>
+    <input type="text" class="form-control list" id="title" placeholder="Ide írd a tennivaló nevét" name="title" required>
+  </div>
+  <div class="form-group">
+    <label for="description">Leírás</label>
+    <textarea type="text" class="form-control list" id="description" placeholder="Enter a description" name="description">
+    </textarea>
+  </div>
+  <div class="form-group">
+    <label for="priority">Fontosság</label>
+    <select class="form-control list" id="priority" name="priority">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary btn-success buttonCreate"><span class="glyphicon glyphicon-export"></span> Kész</button>
+</form>

@@ -1,0 +1,12 @@
+<a href="/" type="button" class="btn btn-default buttonHome">
+  Kezdőoldal
+</a>
+
+<div class="container">
+  <ul class="list-group list-group-flush">
+    {{#each todos}}
+      <a id="TODOlist" href="/todo/{{id}}" class="list-group-item list-group-item-action list-group-item-light">{{title}}</a>
+    {{/each}}
+  </ul>
+  <a href="/todo/new" id="createTODO" type="button" class="btn btn-block btn-primary"><span class="glyphicon glyphicon-chevron-right"></span> Felvétel a listára</a>
+</div>

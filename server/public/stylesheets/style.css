@@ -1,0 +1,72 @@
+body {
+  padding: 50px;
+  font: 15px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#background {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5rem;
+  background-image: url("/images/PaintSquares_1400x900-1024x658.jpg");
+}
+
+#card {
+  background: transparent;
+  border: 2px solid #4992B7;
+}
+
+div.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+#TODOlist {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 0.5rem;
+  color: black;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+#createTODO {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 3rem;
+}
+
+.list {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonHome {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.buttonEdit {
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonDelete {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonCreate {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.panel {
+  margin-top: 3rem;
+}
+
+.panel-body {
+  margin-bottom: 5rem;
+}
